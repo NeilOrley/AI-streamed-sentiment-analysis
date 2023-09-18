@@ -51,7 +51,7 @@ Activez l'environnement virtuel :
 Installez les dépendances nécessaires :
 
 ```bash
-pip install confluent_kafka transformers
+pip install -r app/requirements.txt
 ```
 
 ## Configuration
@@ -63,7 +63,7 @@ Modifiez le fichier `config.ini` avec vos paramètres Kafka et les chemins de vo
 Exécutez le script principal :
 
 ```bash
-python main_script.py
+python sentiment-analysis.py
 ```
 
 ## Licence

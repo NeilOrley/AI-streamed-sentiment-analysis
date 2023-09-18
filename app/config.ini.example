@@ -1,0 +1,8 @@
+[KAFKA]
+bootstrap_servers = localhost:9092
+topic_name = votre_topic_name
+group_id = votre_group_id
+
+[BERT]
+sentiment_model = nlptown/bert-base-multilingual-uncased-sentiment
+summary_model = facebook/bart-large-cnn
